@@ -22,6 +22,7 @@ color: #0E0E0E;
 }
 .nav-btn{
     padding: 10px 20px;
+     cursor: pointer;
     background: transparent;
     color: #006a50;
     font-size: 16px;
@@ -74,3 +75,101 @@ color: #0E0E0E;
     color: #006a50;
 }
 
+
+/* future styles */
+.future{
+    margin: 1cm 3cm 1cm;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.future-container{
+    display: flex;
+    gap: 20px;
+}
+.future-container h4{
+   font-size: 18px;
+   margin: 10px 0;
+   color: #333936;
+}
+.future-container p{
+   font-size: 13px;
+   margin: 10px 0;
+   color: #454E4A;
+}
+
+.future-cards img{
+  width: 20%;
+}
+.future-cards1 {
+    background-color: #D5E1F5;
+    padding: 15px;
+    width: 31%;
+}
+.future-cards2 {
+    background-color: #C6E4D6;
+    padding: 15px;
+    width: 31%;
+
+}
+.future-cards3 {
+    background-color: #F7EBCF;
+    padding: 15px;
+    width: 31%;
+
+}
+.future-btn1{
+ 
+    background-color: #5490F5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #5490F5;
+
+    font-size: 16px;
+}
+.future-btn1:hover{
+    background-color: white;
+
+    color: #5490F5;
+}
+.future-btn2{
+    background-color: #006a50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #006a50;
+
+    font-size: 16px;
+}
+.future-btn2:hover{
+    background-color: white;
+
+    color: #006a50;
+}
+.future-btn3{
+    background-color: #FFC239;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #FFC239;
+
+    font-size: 16px;
+}
+.future-btn3:hover{
+    background-color: white;
+
+    color: #FFC239;
+}
