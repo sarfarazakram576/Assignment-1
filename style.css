@@ -39,5 +39,38 @@ color: #0E0E0E;
     border: 2px solid #006a50;
 }
 
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    height: 380px;
+    padding: 1cm 1.3cm 0;
+    margin: 1cm 3cm;
+    gap: 50px;
+    background-color: #C6E4D6;
+}
+.banner-items img{
+    width: 280px;
+    height: 265px;
+}
+.btn{
+    background-color: #006a50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #006a50;
 
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: white;
+
+    color: #006a50;
+}
 
