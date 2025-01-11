@@ -86,6 +86,9 @@ color: #0E0E0E;
     flex-direction: column;
     gap: 20px;
 }
+.future img{
+    cursor: pointer;
+}
 .future-container{
     display: flex;
     gap: 20px;
@@ -102,20 +105,35 @@ color: #0E0E0E;
    color: #454E4A;
 }
 
-.future-cards img{
-  width: 20%;
-}
+
 .future-cards1 {
     background-color: #D5E1F5;
     padding: 15px;
     width: 31%;
     border-radius: 10px;
 }
+.future-cards1 img{
+
+    width: 43%;
+ 
+}
 .future-cards2 {
     background-color: #C6E4D6;
     padding: 15px;
     width: 31%;
     border-radius: 10px;
+
+}
+.future-cards2 img{
+
+    width: 37%;
+
+
+}
+.future-cards3 img{
+
+    width: 50%;
+
 
 }
 .future-cards3 {
@@ -131,7 +149,7 @@ color: #0E0E0E;
     color: white;
     padding: 10px 20px;
     border: none;
-    margin-top: 45px;
+    margin-top: 35px;
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
@@ -344,4 +362,20 @@ color: #0E0E0E;
 .newsletter .btn{
     padding: 8.5px 20px ;
 border-radius: 0 8px 8px 0 ;
+}
+
+/* footer styles */
+.footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1.5cm 0;
+}
+.footer h1{
+    font-size: 25px;
+    color: #0E0E0E;
+    margin: 0 0 25px;
+}
+.footer img{
+
+    margin: 25px 5px 0px;
 }
