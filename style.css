@@ -6,6 +6,9 @@
     
   font-family: "Fira Sans", serif;
 }
+body{
+    background-color:#F5F5F5;
+}
 /* header styles */
 
 header{
@@ -93,7 +96,8 @@ color: #0E0E0E;
    color: #333936;
 }
 .future-container p{
-   font-size: 13px;
+   font-size: 12px;
+   line-height: 20px;
    margin: 10px 0;
    color: #454E4A;
 }
@@ -105,17 +109,20 @@ color: #0E0E0E;
     background-color: #D5E1F5;
     padding: 15px;
     width: 31%;
+    border-radius: 10px;
 }
 .future-cards2 {
     background-color: #C6E4D6;
     padding: 15px;
     width: 31%;
+    border-radius: 10px;
 
 }
 .future-cards3 {
     background-color: #F7EBCF;
     padding: 15px;
     width: 31%;
+    border-radius: 10px;
 
 }
 .future-btn1{
@@ -124,7 +131,7 @@ color: #0E0E0E;
     color: white;
     padding: 10px 20px;
     border: none;
-    margin-top: 40px;
+    margin-top: 45px;
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
@@ -172,4 +179,24 @@ color: #0E0E0E;
     background-color: white;
 
     color: #FFC239;
+}
+/* quote styles */
+.quote{
+    margin: 1cm 3cm 2cm;
+    padding: 1cm 1cm 0.5cm;
+    background: url("assets/quote-bg.png"),#ffffff;
+    background-repeat: no-repeat no-repeat;
+    background-position: top 13.5px left 36.5px;
+    border-radius: 15px;
+    border: 1px solid #DBDBDB;
+}
+.quote p{
+font-size: 13px;
+line-height: 22px;
+margin-bottom: 20px;
+color: #3E3E3E;
+}
+.quote h3{
+   font-size: 18px;
+   margin-bottom: 20px;
 }
