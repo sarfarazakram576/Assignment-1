@@ -313,3 +313,35 @@ border: 2px solid black;
     border-bottom: 1.5px solid #DBDBDB;
     border-radius: 5px;
 }
+
+/* newsletter styles */
+
+.newsletter{
+text-align: center;
+background-color: #C6E4D6;
+padding: 1.5cm 2cm;
+margin: 1cm 3cm 2cm;
+border-radius: 15px;
+}
+.newsletter p{
+font-size: 12px;
+line-height: 20px;
+
+color: #454E4A;
+}
+.newsletter h1{
+    margin: 20px 0;
+font-size: 30px;
+color: #0E0E0E;
+}
+.newsletter [type="email"]{
+    padding: 10px 20px;
+    height: 20px;
+    width: 50%;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.newsletter .btn{
+    padding: 8.5px 20px ;
+border-radius: 0 8px 8px 0 ;
+}
